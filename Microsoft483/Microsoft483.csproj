@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{54254741-52C4-4437-960F-F3161AF17770}</ProjectGuid>
+    <ProjectGuid>{36F4BF32-37BA-448C-B7E0-14C39CDE860C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ImplementDataAccess</RootNamespace>
-    <AssemblyName>ImplementDataAccess</AssemblyName>
+    <RootNamespace>Microsoft483</RootNamespace>
+    <AssemblyName>Microsoft483</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChapterFourImplementData.cs" />
-    <Compile Include="IOOperation\InputAndOutputOperation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CreateAndUseTypes\CreateAndUseTypes.csproj">
+      <Project>{ec741b7c-cbae-417e-a26b-1cda7688335f}</Project>
+      <Name>CreateAndUseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DebugApplicationsAndImplementSecurity\DebugApplicationsAndImplementSecurity.csproj">
+      <Project>{b2f080f4-6611-45e0-b609-51c19fb4aa0b}</Project>
+      <Name>DebugApplicationsAndImplementSecurity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ImplementDataAccess\ImplementDataAccess.csproj">
+      <Project>{54254741-52c4-4437-960f-f3161af17770}</Project>
+      <Name>ImplementDataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManageProgramFlow\ManageProgramFlow.csproj">
+      <Project>{2cd5109a-9d0b-4a02-9f4b-c5c0a69cb005}</Project>
+      <Name>ManageProgramFlow</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

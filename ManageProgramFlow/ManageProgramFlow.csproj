@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChapterOneProgramFlow.cs" />
     <Compile Include="EventsAndCallBacks\EventsAndActions.cs" />
     <Compile Include="ExceptionHandling\ExceptionHandling.cs" />
-    <Compile Include="ExceptionHandling\OrderProcessingException.cs" />
     <Compile Include="ManageMultiTheading\Listing21.cs" />
     <Compile Include="ManageMultiTheading\Listing22.cs" />
     <Compile Include="multithreadingAndAsynchronous\BooleanExpressions.cs" />

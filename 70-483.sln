@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+VisualStudioVersion = 15.0.26228.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAndUseTypes", "CreateAndUseTypes\CreateAndUseTypes.csproj", "{EC741B7C-CBAE-417E-A26B-1CDA7688335F}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementDataAccess", "ImplementDataAccess\ImplementDataAccess.csproj", "{54254741-52C4-4437-960F-F3161AF17770}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageProgramFlow", "ManageProgramFlow\ManageProgramFlow.csproj", "{2CD5109A-9D0B-4A02-9F4B-C5C0A69CB005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft483", "Microsoft483\Microsoft483.csproj", "{36F4BF32-37BA-448C-B7E0-14C39CDE860C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2CD5109A-9D0B-4A02-9F4B-C5C0A69CB005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CD5109A-9D0B-4A02-9F4B-C5C0A69CB005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CD5109A-9D0B-4A02-9F4B-C5C0A69CB005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F4BF32-37BA-448C-B7E0-14C39CDE860C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F4BF32-37BA-448C-B7E0-14C39CDE860C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F4BF32-37BA-448C-B7E0-14C39CDE860C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F4BF32-37BA-448C-B7E0-14C39CDE860C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

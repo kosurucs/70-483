@@ -1,17 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace DebugApplicationsAndImplementSecurity
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            var chapterThreeDebugApplicationAndImplementSecurity = new ChapterThreeDebugApplicationAndImplementSecurity();
+            chapterThreeDebugApplicationAndImplementSecurity.DebugApplicationAndImplementSecurityIndex();
         }
     }
 }
