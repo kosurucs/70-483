@@ -20,25 +20,24 @@ namespace CreateAndUseTypes
             switch (index)
             {
                 case 1:
-                   // ProgramFlow();
+                    // ProgramFlow();
                     break;
 
                 case 2:
-                   // ManageMultiThreading();
+                    // ManageMultiThreading();
                     break;
 
                 case 3:
-                   // MultiThreadingAndAsynchronous();
+                    // MultiThreadingAndAsynchronous();
                     break;
 
                 case 4:
-                   // EventsAndCallBacks();
+                    // EventsAndCallBacks();
                     break;
 
                 default:
                     break;
             }
-
         }
     }
 }

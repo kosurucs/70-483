@@ -38,7 +38,6 @@ namespace DebugApplicationsAndImplementSecurity
                 default:
                     break;
             }
-
         }
     }
 }

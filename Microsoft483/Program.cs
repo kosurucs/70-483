@@ -6,9 +6,9 @@ using System;
 
 namespace Microsoft483
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             LableValues();
 
@@ -19,7 +19,6 @@ namespace Microsoft483
                 if (value == 0)
                 {
                     break;
-
                 }
                 LableValues();
             }
@@ -58,6 +57,7 @@ namespace Microsoft483
                     var chapterThreeDebugApplicationAndImplementSecurity = new ChapterThreeDebugApplicationAndImplementSecurity();
                     chapterThreeDebugApplicationAndImplementSecurity.DebugApplicationAndImplementSecurityIndex();
                     break;
+
                 case 4:
                     var chapterFourImplementData = new ChapterFourImplementData();
                     chapterFourImplementData.ImplementDataIndex();

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Contexts;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -15,7 +11,6 @@ namespace _70_483.ProgramFlow
             var val = Task.Run(() =>
             {
                 return 56;
-
             }).ContinueWith((values) =>
             {
                 Console.WriteLine("values:\t" + values.Result * 2);
@@ -99,11 +94,9 @@ namespace _70_483.ProgramFlow
             }
             catch (Exception ex)
             {
-
             }
             finally
             {
-
             }
         }
 

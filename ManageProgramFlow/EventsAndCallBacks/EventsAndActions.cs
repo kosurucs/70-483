@@ -31,7 +31,9 @@ namespace _70_483.EventsAndCallBacks
     public class Pub
     {
         public Action OnChange { get; set; }
+
         public event Action OnChanges = delegate { };
+
         public event EventHandler<MyArgs> OnChangeWithEventHandler = delegate { };
 
         public void Raise()
@@ -56,7 +58,6 @@ namespace _70_483.EventsAndCallBacks
     public class MyArgs : EventArgs
     {
         public int Value { get; set; }
-
 
         public MyArgs(int value)
         {

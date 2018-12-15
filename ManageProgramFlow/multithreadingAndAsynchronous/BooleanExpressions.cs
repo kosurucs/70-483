@@ -42,7 +42,6 @@ namespace _70_483.multithreadingAndAsynchronous
             }
         }
 
-
         public void ForStatement()
         {
             int[] values = { 1, 2, 3, 4, 5, 6 };
@@ -64,8 +63,8 @@ namespace _70_483.multithreadingAndAsynchronous
 
             customer:
             Console.WriteLine("Result finally");
-
         }
+
         private bool GetVal()
         {
             Console.WriteLine("It's True Value");

@@ -54,21 +54,21 @@ namespace _70_483.ManageMultiTheading
             var lockA = new object();
             var lockB = new object();
 
-            var up = Task.Run(() => 
+            var up = Task.Run(() =>
             {
-                lock(lockA)
+                lock (lockA)
                 {
                     Thread.Sleep(1000);
-                    lock(lockB)
+                    lock (lockB)
                     {
                         Console.WriteLine("Locked A and B.");
                     }
                 }
             });
 
-            lock(lockB)
+            lock (lockB)
             {
-                lock(lockA)
+                lock (lockA)
                 {
                     Console.WriteLine("Locked B and A.");
                 }

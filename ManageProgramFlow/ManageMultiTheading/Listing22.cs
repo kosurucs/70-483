@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -31,25 +28,23 @@ namespace _70_483.ManageMultiTheading
             Console.ReadLine();
         }
 
-
         public void InterLock()
         {
             int n = 0;
-            var up = Task.Run(() => 
+            var up = Task.Run(() =>
             {
-                for (int i =0;i<100000;i++)
+                for (int i = 0; i < 100000; i++)
                 {
                     Interlocked.Increment(ref n);
                 }
             });
 
-            for (int i =0;i<100000;i++)
+            for (int i = 0; i < 100000; i++)
             {
                 Interlocked.Decrement(ref n);
             }
 
             up.Wait();
-        }     
+        }
     }
 }
-

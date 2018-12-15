@@ -43,7 +43,6 @@ namespace _70_483
                 default:
                     break;
             }
-
         }
 
         public static void ProgramFlow()
@@ -106,6 +105,7 @@ namespace _70_483
                     TwoAndOne.SynchronizingResourcesDeadLock();
 
                     break;
+
                 case 2:
                     var TwoAndTwo = new Listing22();
                     TwoAndTwo.InterLockSharedResources();

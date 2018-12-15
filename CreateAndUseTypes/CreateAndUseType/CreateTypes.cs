@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CreateAndUseTypes.CreateAndUseType
+﻿namespace CreateAndUseTypes.CreateAndUseType
 {
     public class CreateTypes
     {
@@ -14,9 +8,7 @@ namespace CreateAndUseTypes.CreateAndUseType
         {
             if (gender.Equals(Gender.Female))
             {
-
             }
         }
     }
 }
-
