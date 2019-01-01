@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DebugApplicationsAndImplementSecurity.ValidateApplicationInput;
+using System;
 
 namespace DebugApplicationsAndImplementSecurity
 {
@@ -8,11 +9,11 @@ namespace DebugApplicationsAndImplementSecurity
         {
             Console.WriteLine("Chapter One Index");
             Console.WriteLine("======================");
-            Console.WriteLine("1. Implement Multithreading and asynchronous processing");
-            Console.WriteLine("2. Manage Multithreading");
-            Console.WriteLine("3. Implement Program flow");
-            Console.WriteLine("4. Create And Implement events and callbacks");
-            Console.WriteLine("5. Implement exception handing");
+            Console.WriteLine("1. Validate Application Input");
+            Console.WriteLine("2. Perform Symmantic and Asymmantic Encryption.");
+            Console.WriteLine("3. Manage Assamblies");
+            Console.WriteLine("4. Debug Application");
+            Console.WriteLine("5. Implement Diagnostics in Application.");
             Console.WriteLine("======================");
             Console.WriteLine("Enter your Choice ::");
 
@@ -20,7 +21,8 @@ namespace DebugApplicationsAndImplementSecurity
             switch (index)
             {
                 case 1:
-                    // ProgramFlow();
+                    var validateInputs = new ValidateInputs();
+                    validateInputs.Run();
                     break;
 
                 case 2:
