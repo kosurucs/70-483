@@ -6,8 +6,8 @@ namespace ImplementDataAccess
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            var chapterFourImplementData = new ChapterFourImplementData();
+            chapterFourImplementData.ImplementDataIndex();
         }
     }
 }

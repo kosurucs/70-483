@@ -27,11 +27,10 @@ namespace Microsoft483
         public static void LableValues()
         {
             Console.WriteLine("========= // 70-483 \\=======");
-            Console.WriteLine("Objective 1: Implement multithreading and Asynchronous processing");
-            Console.WriteLine("Objective 2: Manage Multithreading");
-            Console.WriteLine("Objective 3: Implement Program Flow.");
-            Console.WriteLine("Objective 4: Events and Call Backs.");
-
+            Console.WriteLine("Chapter 1: Manage Program Flow.");
+            Console.WriteLine("Chapter 2: Create And Use Types.");
+            Console.WriteLine("Chapter 3: Debug Applications And Implement Security.");
+            Console.WriteLine("Chapter 4: Implement Data Access.");
             Console.WriteLine("========= // 70-483 \\=======");
             Console.WriteLine("Enter your Choice ::");
 

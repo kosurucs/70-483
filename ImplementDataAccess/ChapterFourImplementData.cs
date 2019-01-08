@@ -8,11 +8,11 @@ namespace ImplementDataAccess
         {
             Console.WriteLine("Chapter One Index");
             Console.WriteLine("======================");
-            Console.WriteLine("1. Implement Multithreading and asynchronous processing");
-            Console.WriteLine("2. Manage Multithreading");
-            Console.WriteLine("3. Implement Program flow");
-            Console.WriteLine("4. Create And Implement events and callbacks");
-            Console.WriteLine("5. Implement exception handing");
+            Console.WriteLine("1. PerformIO-Operation.");
+            Console.WriteLine("2. Consume Data.");
+            Console.WriteLine("3. Query and Manipulate Data and Objects by Using LINQ.");
+            Console.WriteLine("4. Serialize and Deserialize data.");
+            Console.WriteLine("5. Store data in and Retrieve Data from Collections.");
             Console.WriteLine("======================");
             Console.WriteLine("Enter your Choice ::");
 
