@@ -2,6 +2,7 @@
 
 Candidates for this exam are developers with at least one year of experience programming essential business logic for a variety of application types, hardware, and software platforms using C#.
 Candidates should also have a thorough understanding of the following:
+
   • Managing program flow and events
   • Asynchronous programming and threading
   • Data validation and working with data collections including LINQ
